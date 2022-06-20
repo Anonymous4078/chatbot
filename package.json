@@ -20,7 +20,7 @@
   "homepage": "https://github.com/Anonymous4078/chatbot#readme",
   "devDependencies": {
     "eslint": "8.18.0",
-    "node": "17.9.1"
+    "node": "18.4.0"
   },
   "dependencies": {
     "discord.js": "^14.0.0-dev.1653480262-68d5169",
