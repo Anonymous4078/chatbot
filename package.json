@@ -7,7 +7,8 @@
     "start": "node .",
     "format": "prettier --write src",
     "lint": "eslint src",
-    "lint:fix": "eslint src --fix"
+    "lint:fix": "eslint src --fix",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,8 @@
   "homepage": "https://github.com/Anonymous4078/chatbot#readme",
   "devDependencies": {
     "eslint": "8.18.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.2",
     "node": "17.9.1"
   },
   "dependencies": {
@@ -30,5 +33,8 @@
     "pino-pretty": "^8.0.0",
     "prettier": "^2.6.2",
     "undici": "^5.0.0"
+  },
+  "lint-staged": {
+    "**/*.{js,md,json}": "prettier --write"
   }
 }
