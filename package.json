@@ -23,10 +23,10 @@
     "eslint": "8.18.0",
     "husky": "8.0.1",
     "lint-staged": "13.0.3",
-    "node": "17.9.1"
+    "node": "18.4.0"
   },
   "dependencies": {
-    "discord.js": "^14.0.0-dev.1655815511-c6f285b",
+    "discord.js": "^13.8.1",
     "dotenv": "^16.0.0",
     "mongoose": "^6.0.12",
     "pino": "^8.0.0",
